@@ -1,9 +1,15 @@
+import Designed from "../../images/Designed.PNG";
 
 function Footer() {
   return (
-<img src="" alt="" />
+    <div className="own-footer-size d-flex justify-content-center">
+      <img
+        src={Designed}
+        alt="Logo Diseñador"
+        className="own-designer-logo my-auto"
+      />
+    </div>
   );
-  
 }
 
 export default Footer;
