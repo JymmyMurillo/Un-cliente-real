@@ -1,63 +1,76 @@
-import Compralo from "../../images/Compralo.svg"
+import Compralo from "../../images/Compralo.svg";
+import Footer from "../footer/Footer";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top own-bg-navBar-footer own-nav-size">
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top own-bg-navBar-footer own-nav-size">
+      <div className="container-fluid">
         <a href="#">
-          <img src={Compralo} alt="Logo Compralo" class="own-nav-main-logo" />
+          <img
+            src={Compralo}
+            alt="Logo Compralo"
+            className="own-nav-main-logo"
+          />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end own-bg-navBar-footer"
+          className="offcanvas offcanvas-end own-bg-navBar-footer"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <a class="navbar-brand" href="#">
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+              <a className="navbar-brand" href="#">
                 <img src={Compralo} alt="Logo Compralo" />
               </a>
             </h5>
             <button
               type="button"
-              class="btn-close text-reset"
+              className="btn-close text-reset"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link " href="#">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end align-items-center flex-grow-1">
+              <li className="nav-item">
+                <a className="nav-link " href="#">
                   Inicio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Categorias
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Carrito de Compras
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Resumen de Comporas
                 </a>
               </li>
             </ul>
+          </div>
+          <div
+            className="offcanvas-header justify-content-center"
+            id="offcanvasNavbarLabel"
+          >
+            <a className="navbar-brand" href="#">
+              <Footer />
+            </a>
           </div>
         </div>
       </div>

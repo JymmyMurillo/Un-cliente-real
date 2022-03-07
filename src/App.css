@@ -4,6 +4,8 @@
   --bgColor: #FEF4EA;
   --first-font: 'Pacifico',
     cursive;
+    --second-font: 'Overpass Mono',
+    monospace;
 
 }
 
@@ -69,4 +71,36 @@ html {
   color: #C31F5C !important;
 }
 
+.offcanvas-body {
+  padding: 0 !important;
+}
+
+/* ----------------Body App classes----------------*/
+.fixed-bottom {
+  z-index: 1029 !important;
+}
+
+.own-bg-body-app {
+  background-image: url(./images/BgBody.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+
 /* ----------------Footer classes----------------*/
+.own-footer-size {
+  position: relative;
+  width: 100%;
+  height: 2.4375rem;
+  background-color: var(--bgColor);
+}
+
+.own-designer-logo {
+  width: auto;
+  height: 1.9365rem;
+}
+
+.offcanvas-header {
+  padding: 0 2rem !important;
+}
