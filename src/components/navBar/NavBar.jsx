@@ -23,7 +23,7 @@ function NavBar() {
         </button>
         <div
           className="offcanvas offcanvas-end own-bg-navBar-footer"
-          tabindex="-1"
+          tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >

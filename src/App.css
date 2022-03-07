@@ -83,17 +83,20 @@ html {
 
 .own-bg-body-app {
   background-image: url(./images/BgBody.jpg);
-  background-size: cover;
-  position: absolute;
-  background-position: center center;
-  top: var(--navBarHeight);
-  height: calc(100vh - (var(--navBarHeight)));
+  background-attachment: fixed;
+  background-position: center var(--navBarHeight);
+  background-size: auto calc(100vh - var(--navBarHeight));
+  height: auto;
+  min-height:100vh;
 }
 
 .own-body-pages {
+  top: var(--navBarHeight);
   width: 100vw;
-  height: calc(100vh - (var(--navBarHeight) + var(--footerHeight)));
-  position: relative;
+  height:auto;
+  min-height: 100vh;
+  padding-top: calc(var(--navBarHeight) + 1.5rem);
+  padding-bottom: calc(var(--footerHeight) + 1.5rem);
 }
 
 /* ----------------Footer classes----------------*/
@@ -132,8 +135,8 @@ html {
 }
 
 .own-Whatsapp-icon {
-  position: absolute;
-  bottom: calc(var(--footerHeight) - 2rem);
+  position: fixed;
+  bottom: calc(var(--footerHeight) + 0.5rem);
   right: 0.5rem;
   width: 3.125rem;
   height: auto;

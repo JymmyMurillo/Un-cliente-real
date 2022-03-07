@@ -13,6 +13,7 @@ export default function HomePage() {
         logras encontrar algo dentro de nuestro catálogo, contáctanos y te
         informaremos si lo tenemos.
       </h2>
+      
       <a
         href="https://wa.me/+573502981239?text=Hola,%20me%20interesa%20hablar%20sobre%20algunos%20productos..."
         target="_blank"

@@ -10,7 +10,8 @@ function App() {
         <div>
           <NavBar />
         </div>
-        <div className="own-body-pages p-4 d-flex flex-column justify-content-center">
+
+        <div className="own-body-pages px-4 d-flex flex-column justify-content-center">
           <HomePage />
         </div>
 
