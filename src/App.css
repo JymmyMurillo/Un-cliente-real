@@ -85,7 +85,8 @@ html {
   background-image: url(./images/BgBody.jpg);
   background-attachment: fixed;
   background-position: center var(--navBarHeight);
-  background-size: auto calc(100vh - var(--navBarHeight));
+ /* background-size: auto calc(100vh - var(--navBarHeight));*/
+ background-size: cover;
   height: auto;
   min-height:100vh;
 }
@@ -144,4 +145,30 @@ html {
 
 .own-Whatsapp-icon:hover {
   transform: scale(1.2);
+}
+
+/* ----------------CategoriesPage classes----------------*/
+.own-category-card {
+  width: 7.5rem;
+  height: 10rem !important;
+  background-color: white !important;
+  position: relative;
+}
+
+.own-img-card {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.own-category-name {
+  position: absolute;
+  width: 100%;
+  height: 2.5rem;
+  font-family: var(--first-font);
+  font-size: 0.8rem;
+}
+
+.own-category-title {
+  font-weight: 400;
+  color: black;
 }

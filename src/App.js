@@ -1,7 +1,8 @@
 import "./App.css";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
-import HomePage from "./pages/home";
+import HomePage from "./pages/Home";
+import Categories from "./pages/Categories";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         </div>
 
         <div className="own-body-pages px-4 d-flex flex-column justify-content-center">
-          <HomePage />
+          {/*<HomePage />*/}
+          {/*<Categories />*/}
+          
         </div>
 
         <div className="fixed-bottom">

@@ -16,7 +16,7 @@ export default function HomePage() {
       
       <a
         href="https://wa.me/+573502981239?text=Hola,%20me%20interesa%20hablar%20sobre%20algunos%20productos..."
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         <img
           src={Whatsapp}
