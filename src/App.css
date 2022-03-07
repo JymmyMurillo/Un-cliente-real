@@ -4,9 +4,10 @@
   --bgColor: #FEF4EA;
   --first-font: 'Pacifico',
     cursive;
-    --second-font: 'Overpass Mono',
+  --second-font: 'Overpass Mono',
     monospace;
-
+  --navBarHeight: 4rem;
+  --footerHeight: 2.4375rem;
 }
 
 html {
@@ -20,7 +21,7 @@ html {
 
 .own-nav-size {
   width: 100vw;
-  height: 4rem;
+  height: var(--navBarHeight);
 }
 
 .own-nav-main-logo {
@@ -83,16 +84,23 @@ html {
 .own-bg-body-app {
   background-image: url(./images/BgBody.jpg);
   background-size: cover;
+  position: absolute;
   background-position: center center;
-  height: 100vh;
+  top: var(--navBarHeight);
+  height: calc(100vh - (var(--navBarHeight)));
 }
 
+.own-body-pages {
+  width: 100vw;
+  height: calc(100vh - (var(--navBarHeight) + var(--footerHeight)));
+  position: relative;
+}
 
 /* ----------------Footer classes----------------*/
 .own-footer-size {
   position: relative;
   width: 100%;
-  height: 2.4375rem;
+  height: var(--footerHeight);
   background-color: var(--bgColor);
 }
 
@@ -103,4 +111,34 @@ html {
 
 .offcanvas-header {
   padding: 0 2rem !important;
+}
+
+/* ----------------HomePage classes----------------*/
+.own-homePage-h1 {
+  color: white;
+  font-family: var(--first-font);
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.own-homePage-h2 {
+  color: white;
+  font-family: var(--second-font);
+  margin: 1.8rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.own-Whatsapp-icon {
+  position: absolute;
+  bottom: calc(var(--footerHeight) - 2rem);
+  right: 0.5rem;
+  width: 3.125rem;
+  height: auto;
+}
+
+.own-Whatsapp-icon:hover {
+  transform: scale(1.2);
 }
