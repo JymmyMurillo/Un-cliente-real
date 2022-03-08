@@ -14,6 +14,10 @@ html {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* ----------------NavBar classes----------------*/
 .own-bg-navBar-footer {
   background-color: var(--bgColor) !important;
@@ -255,4 +259,82 @@ html {
   background-color: #6C757D !important;
   color: white !important;
   padding: 0.3rem !important;
+}
+
+/* ----------------ShoppingCartPage classes----------------*/
+.own-cart-card {
+  width: 100%;
+  height: auto;
+  min-height: 3.125rem;
+  background-color: white;
+  position: relative;
+}
+
+.own-img-cart-card {
+  width: 3.125rem;
+  height: 3.125rem;
+
+}
+
+.own-product-cart-name {
+  width: auto;
+  height: 100%;
+  font-family: var(--first-font);
+  font-size: 0.8rem;
+  color: black;
+}
+
+.own-product-cart-title {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: black;
+  font-family: var(--second-font);
+  text-decoration: none;
+}
+
+.own-product-text-cart {
+  width: 100%;
+}
+
+.own-btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: content-box;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  font-size: 0.5rem;
+  padding: 0.25em 0.25em;
+  border: 0;
+  border-radius: 0.25rem;
+  background: #C31F5C url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/%3e%3c/svg%3e) center/1em auto no-repeat;
+}
+
+.own-btn-close:hover {
+background-color: #F67B21;
+transform: scale(1.2);
+}
+
+.own-total-card {
+  font-family: var(--first-font);
+  background-color: #14ACC1;
+  margin: 0.5rem;
+  width: 5.75rem;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.own-half {
+  width: 50%;
+}
+
+.own-total-card:hover {
+  background-color: #C31F5C;
+}
+
+.own-p-total-card {
+  font-family: var(--second-font);
+  color: white;
+  font-size: 0.7rem;
 }

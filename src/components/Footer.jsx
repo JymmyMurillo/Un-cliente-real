@@ -1,4 +1,4 @@
-import Designed from "../../images/Designed.PNG";
+import Designed from "../images/Designed.PNG";
 
 function Footer() {
   return (

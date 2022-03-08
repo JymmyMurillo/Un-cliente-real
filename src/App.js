@@ -1,6 +1,6 @@
 import "./App.css";
-import NavBar from "./components/navBar/NavBar";
-import Footer from "./components/footer/Footer";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
 import Categories from "./pages/Categories";
 import Products from "./pages/Products";
