@@ -1,6 +1,6 @@
 import hogar from "../images/hogar.svg";
 
-export default function ShoppingCartCard() {
+export default function ShoppingSummaryCard() {
   return (
     <div className="own-cart-card  rounded-3 d-flex flex-row align-items-center">
       <img
@@ -16,21 +16,17 @@ export default function ShoppingCartCard() {
           <p className="m-0 text-center own-product-cart-name">COP $165.000</p>
         </div>
         <div className="d-flex flex-row align-items-center">
-          <a href="">
-            <p className="m-0 own-product-cart-title mx-2 fw-bold mt-1"> - </p>
-          </a>
           <div className="own-product-cart-title mt-1">1</div>
-          <a href="">
-            <p className="m-0 own-product-cart-title mx-2 fw-bold mt-1"> + </p>
-          </a>
+        
+            <p className="m-0 own-product-cart-title fw-bold mt-1"> Und. </p>
+         
         </div>
-        <div>
+        
           <p className="m-0 text-center own-product-cart-name d-flex align-items-center justify-content-evenly">
             $165.000
           </p>
-        </div>
+        
       </div>
-      <button type="button" class="own-btn-close"></button>
     </div>
   );
 }

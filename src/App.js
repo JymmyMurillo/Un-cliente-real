@@ -5,6 +5,7 @@ import HomePage from "./pages/Home";
 import Categories from "./pages/Categories";
 import Products from "./pages/Products";
 import ShoppingCart from "./pages/ShoppingCart";
+import ShoppingSummary from "./pages/ShoppingSummary";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           {/*<Categories />*/}
           {/*<Products />*/}
           <ShoppingCart />
+          {/*<ShoppingSummary />*/}
         </div>
 
         <div className="fixed-bottom">

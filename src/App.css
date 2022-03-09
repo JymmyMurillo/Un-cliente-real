@@ -326,7 +326,7 @@ transform: scale(1.2);
 }
 
 .own-half {
-  width: 50%;
+  width: 50% !important;
 }
 
 .own-total-card:hover {
