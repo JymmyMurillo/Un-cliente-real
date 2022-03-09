@@ -1,4 +1,4 @@
-import hogar from "../images/hogar.svg";
+
 
 export function ProductCard() {
   return (
@@ -9,7 +9,7 @@ export function ProductCard() {
         <div className="own-product-card  rounded-3 ">
           <img
             className="own-img-card"
-            src={hogar}
+            src=""
             alt="Imagen de Categoria"
           ></img>
           <div className="own-product-name d-flex flex-column align-items-center justify-content-evenly">
@@ -23,23 +23,23 @@ export function ProductCard() {
 
       {/*Modal */}
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header d-flex justify-content-center">
-              <h5 class="modal-title" id="exampleModalLabel">
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header d-flex justify-content-center">
+              <h5 className="modal-title" id="exampleModalLabel">
                 Hogar y Decoracíon
               </h5>
             </div>
-            <div class="modal-body d-flex flex-wrap justify-content-center gap-2">
+            <div className="modal-body d-flex flex-wrap justify-content-center gap-2">
               <img
-                className="own-img-modal-card"
-                src={hogar}
+                classNameName="own-img-modal-card"
+                src=""
                 alt="Imagen de Categoria"
               ></img>
               <p className="own-modal-description">
@@ -53,14 +53,14 @@ export function ProductCard() {
                 Color: blanco<br></br> Longitud del cable: 1,6 m
               </p>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <p className="own-modal-price">COP $165.000</p>
-              <button type="button" class="btn own-modal-cart-button">
+              <button type="button" className="btn own-modal-cart-button">
                 Al Carrito
               </button>
               <button
                 type="button"
-                class="btn own-modal-close-button"
+                className="btn own-modal-close-button"
                 data-bs-dismiss="modal"
               >
                 Cerrar

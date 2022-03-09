@@ -1,11 +1,9 @@
-import hogar from "../images/hogar.svg";
-
 export default function ShoppingSummaryCard() {
   return (
     <div className="own-cart-card  rounded-3 d-flex flex-row align-items-center">
       <img
         className="own-img-cart-card rounded-3"
-        src={hogar}
+        src=""
         alt="Imagen de Categoria"
       ></img>
       <div className="d-flex flex-row justify-content-evenly own-product-text-cart">

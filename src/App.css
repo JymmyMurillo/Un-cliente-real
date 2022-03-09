@@ -86,7 +86,7 @@ a {
 }
 
 .own-bg-body-app {
-  background-image: url(./images/BgBody.jpg);
+  background-image: url(../public/images/BgBody.jpg);
   background-attachment: fixed;
   background-position: center var(--navBarHeight);
   /* background-size: auto calc(100vh - var(--navBarHeight));*/
@@ -162,6 +162,7 @@ a {
   height: 10rem !important;
   background-color: white !important;
   position: relative;
+ 
 }
 
 .own-category-card:hover {
@@ -171,6 +172,7 @@ a {
 .own-img-card {
   width: 7.5rem;
   height: 7.5rem;
+   border: 1px solid white
 }
 
 .own-category-name {
