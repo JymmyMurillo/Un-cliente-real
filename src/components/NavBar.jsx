@@ -43,7 +43,7 @@ function NavBar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end align-items-center flex-grow-1">
               <li className="nav-item">
-                <a className="nav-link " href="inicio">
+                <a className="nav-link " href="home">
                   Inicio
                 </a>
               </li>

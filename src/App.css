@@ -121,6 +121,11 @@ a {
   padding: 0 2rem !important;
 }
 
+.own-p-footer {
+  font-family: var(--first-font);
+  font-size: 0.8rem;
+  color: black;
+}
 /* ----------------HomePage classes----------------*/
 .own-homePage-h1 {
   color: white;

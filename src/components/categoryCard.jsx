@@ -2,7 +2,7 @@ import hogar from "../images/hogar.svg";
 
 export default function CategoryCard() {
   return (
-    <a href="#">
+    <a href="products">
       <div className="own-category-card rounded-3 ">
         <img
           className="own-img-card"

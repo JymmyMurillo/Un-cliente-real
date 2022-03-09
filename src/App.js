@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
@@ -16,10 +17,20 @@ function App() {
         </div>
 
         <div className="own-body-pages px-4 d-flex flex-column justify-content-center">
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/home" element={<HomePage />} />
+              <Route path="/categories" element={<Categories />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/shoppingcart" element={<ShoppingCart />} />
+              <Route path="/shoppingsummary" element={<ShoppingSummary />} />
+            </Routes>
+          </BrowserRouter>
           {/*<HomePage />*/}
           {/*<Categories />*/}
           {/*<Products />*/}
-          <ShoppingCart />
+          {/*<ShoppingCart />*/}
           {/*<ShoppingSummary />*/}
         </div>
 
