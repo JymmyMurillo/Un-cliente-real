@@ -1,13 +1,90 @@
 [
   {
-    "name": "Hogar y Decoración",
-    "img": "hogar y decoracion.jpg",
-    "id": "c1"
+    "id": "p1",
+    "name": "Organizador de Calzado",
+    "img": "organizador de calzado.jpeg",
+    "description": "Soporta de 25 a 30 pares dependiendo el peso y tamaño de cada zapato Alto:138cm Ancho:49.5cm Profundo:16cm ELEMENTOS INCLUIDOS: 20 varillas, 2 bases, 6 uniones laterales, 12 soportes",
+    "price": 69000,
+    "category": "Hogar y Decoración"
   },
 
   {
-    "name": "Tecnología",
-    "img": "tecnologia.jpg",
-    "id": "c2"
+    "id": "p2",
+    "name": "Protector Sofa",
+    "img": "protector sofa.jpeg",
+    "description": "Color: Doble Faz Café Beige Ancho - Largo - Alto (Caídas a los lados o Altura Colchón) Medidas: 1,20 x 1,80 x 0,55mt Ficha Técnica: Microfibra 100% Poliéster Tiempo de Entrega: 3 a 6 días hábiles Cuidados: Lavado a temperatura fría Lavado a máquina normal No blanquear con cloro Planchado a temperatura tibia No secar a máquina En seco, excepto tricloroetileno",
+    "price": 69000,
+    "category": "Hogar y Decoración"
+  },
+
+  {
+    "id": "p3",
+    "name": "Tapete Peludo Gris",
+    "img": "Tapete Peludo Gris.jpeg",
+    "description": "producto importado .base delgada .medidas 200cm x 150cm .parte superior en peluche felpa grande super suave .parte posterior antideslizante .largo de pelo 3.5cm apox .color gris",
+    "price": 139900,
+    "category": "Hogar y Decoración"
+  },
+
+  {
+    "id": "p4",
+    "name": "Mini Waflera Dash",
+    "img": "Mini Waflera Dash.jpeg",
+    "description": "• Prepara paninis, croquetas de patata e incluso pizzas de galletas! Cualquier masa húmeda “gofre” sus golosinas y bocadillos en porciones individuales ¡Ideal para niños o para llevar! • Con un peso de más de 1 libra, es imprescindible para ese primer apartamento, cocina más pequeña, vida en el dormitorio universitario o viaje en autocaravana / autocaravana. • Simplemente conéctelo y listo se calienta en cuestión de minutos Las superficies dobles antiadherentes proporcionan una cocción uniforme para obtener resultados uniformes, todas y cada una de las superficies de cocción de 4 pulgadas para porciones individuales  ",
+    "price": 58000,
+    "category": "Hogar y Decoración"
+  },
+
+  {
+    "id": "p5",
+    "name": "Escritorio Gamer Negro_Rojo",
+    "img": "Escritorio Gamer Negro_Rojo.jpeg",
+    "description": "Ancho120 Cm Alto88 Cm Profundo52 Cm **Color **Wengue Neo **Peso **37.35 KG Diseño fabricado en MDP con recubrimiento melamínico ADVERTENCIAS GENERALES • Para el armado, siga en orden las instrucciones de ensamble del manual. • Arme y ubique el producto sobre una superficie plana y bien nivelada. • No arrastre el mueble. Para desplazarlo, asegúrese de hacerlo cuando este sin objetos, levantándolo con ayuda de otra persona. • Proteja el mueble de exposición a la intemperie (SOL- AGUA-HUMEDAD) • No exponga el mueble a calor excesivo. • Las piezas que necesiten pegante en su armado requieren un tiempo de curado de 24 horas antes de su uso. • Evite colocar objetos húmedos sobre el mueble. • Ubique el mueble sobre piso nivelado",
+    "price": 292300,
+    "category": "Hogar y Decoración"
+  },
+
+  {
+    "id": "p6",
+    "name": "Gafas de Ralidad Virtual Vr Box",
+    "img": "Gafas de Ralidad Virtual Vr Box.jpeg",
+    "description": "-Equivale a ver una pantalla de 100`` desde 3m -Ópticas fabricadas en resina de alta calidad -Libertad total de movimiento -Funciona por Bluetooth, compatible con muchas aplicaciones y juegos que no requieren las gafas para jugar. Material Polimero ABS Banda Ajustable Soportes espumados Control compatible con Android Rango de operación: 10 metros Conexión: Bluetooth Batería: 2AA MEDIDAS: -Gafas 3D: 18 x 13 x 10 cm -Empaque: 20 x 13.5 x 14 cm",
+    "price": 49300,
+    "category": "Tecnología"
+  },
+  {
+    "id": "p7",
+    "name": "Kit Teclado y Mouse",
+    "img": "Kit Teclado y Mouse.jpeg",
+    "description": "Es el exclusivo teclado de juegos con cable de refrigeración para ofrecer el entorno de juego más cómodo. Alta calidad y nuevo. 12 teclas multimedia. Antideslizante, con diseño de soporte estable, puede ajustar la altura del teclado. El teclado con tecnología de grabado láser, el desgaste duradero no se desvanece. Con el carácter láser azul ultra-usable, incluso en la noche para experimentar el juego es bastante adecuado. Más agujeros de drenaje grandes para ser diseñados en la parte posterior, es un diseño totalmente resistente al agua. Diseño ergonómico en forma de S único, puede reducir efectivamente la fatiga y aumentar la comodidad.",
+    "price": 83100,
+    "category": "Tecnología"
+  },
+
+  {
+    "id": "p8",
+    "name": "Televisor Exclusive 32``",
+    "img": "Televisor Exclusive 32``.jpeg",
+    "description": "-Equipo totalmente nuevo en caja cerrada. -Modelo EL32F2SM -Diseño delgado -Reducción de Ruido -Tipo de Pantalla: Plana -Realzamiento de Imagen -Resolución 1366 x 768 - 4K -Color Dinámico -Puertos HDMI: 3 -USB: 2 -Diseño Delgado -Dolby  -Bluetooth -WIFI -Pantalla LED Contenido del paquete: TV 32`` / Control remoto / Toma Corriente / Soporte de mesa",
+    "price": 1056000,
+    "category": "Tecnología"
+  },
+
+  {
+    "id": "p9",
+    "name": "Diadema ONIKUMA K6",
+    "img": "Diadema ONIKUMA K6.JPEG",
+    "description": "Diámetro del altavoz: 50 mm Impedancia: 32 ohmios Sensibilidad: 106dB±3dB Frecuencia: 20-20000Hz Dimensión del micrófono: 6,0*2,7mm Sensibilidad del micrófono: 38dB +/- 3dB Impedancia del micrófono: 2.2kohm directividad: OmnidireccionalVoltaje de trabajo LED: 5 V CC +/- 5 % corriente de trabajo: Por debajo de 30mAInterfaz de auriculares: USB (enchufe el conector USB, la luz LED está encendida, desenchúfelo para apagarlo) + audio estéreo de 3,5 mm y conector de micrófono Longitud del cable: Aprox. 2,2 m/7,22 pies Tamaño del paquete: 22* 11* 22,8 cm/8,6*4,3*8,9 pulgadas Peso del paquete: 622g/21,93 onzas Contenido del paquete: 1 * Auriculares para juegos ONIKUMA K6 1 * Manual de usuario en varios idiomas 1 * 1 a 2 adaptador de conector de 3,5 mm",
+    "price": 110900,
+    "category": "Tecnología"
+  },
+
+  {
+    "id": "p10",
+    "name": "Lenovo tabM10",
+    "img": "Lenovo tabM10.jpeg",
+    "description": "tableta Lenovo Tab M10 TB-X606F 4GB/128GB memoria interna 10.3´´ CARACTERÍSTICAS: Elevando el nivel de las tabletas en todas partes: Con un cuerpo totalmente metálico y un diseño ultramoderno, la Lenovo Tab M10 FHD Plus (2da generación) se destaca entre la multitud. Su pantalla FHD de 10,3´´ y altavoces duales con Dolby Atmos le brindan un entretenimiento verdaderamente inmersivo. Y con la estación de carga inteligente opcional, puede administrar su hogar inteligente a través del Asistente de Google. También puede optar por una funda tipo folio para proteger su dispositivo cuando esté en movimiento. En resumen, esta no es una tableta ordinaria. ¿Por qué conformarse con lo normal? Elija una Lenovo Tab M10 FHD Plus (2. generación) y le resultará difícil dejarla. Su cubierta de cuerpo completamente de metal es muy suave, mientras que la relación pantalla-pantalla es de poco menos del 90%. El resultado es una tableta de aspecto moderno que todos en la familia querrán usar. Más pantalla, más disfrute: La Tab M10 FHD Plus (2. generación) tiene una impresionante pantalla de 10,3'' con visualización de gran angular, que ofrece imágenes perfectas. Agregue el procesamiento de ocho núcleos Qualcomm Snapdragon sin problemas y WiFi ultrarrápido, y tendrá un dispositivo de entretenimiento serio, para el hogar o mientras viaja. Un sonido que realmente cobra vida: Solo en audio, la Tab M10 FHD Plus (2da generación) simplemente sobresale. Sus dos altavoces laterales, finamente sintonizados con Dolby Atmos, hacen que todo, desde música y juegos hasta videos y podcasts, suene y se sienta fuera de este mundo. Una cara que lanzó 1000 aplicaciones: Puedes desbloquear tu Tab M10 Plus (2da generación) con solo una sonrisa. Gracias a la tecnología de reconocimiento facial que lo ve, lo conoce y lo registra directamente. También es realmente así de simple y seguro. Porque los niños serán niños: Con el Modo Niños, sus pequeños pueden disfrutar de contenido divertido y seguro para niños. También puede administrar lo que ven y por cuánto tiempo. E incluso ser alertado si alguien no se está sentando correctamente. Además, la tecnología integrada de protección para el cuidado de los ojos ayuda a reducir el riesgo de fatiga visual.",
+    "price": 945200 ,
+    "category": "Tecnología"
   }
 ]

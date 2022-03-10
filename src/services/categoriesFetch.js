@@ -9,18 +9,17 @@ export default function CategoriesFetch() {
     try {
       const data = await res.json();
       setItems(data);
-      console.log("response data?", data);
+      //console.log("response data?", data);
     } catch (error) {
       console.log("Error happened here!");
       console.error(error);
     }
-    console.log("response fetch", items);
-    //return await res;
+   // console.log("response fetch", items);
   };
 
   useEffect(() => {
     fetchInfo();
-    console.log("useEffect");
+    //console.log("categorias");
   }, []);
 
   return items;

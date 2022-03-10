@@ -1,5 +1,3 @@
-import logoDisenador from "../images/logoDisenador.svg";
-
 function Footer() {
   return (
     <div className="own-footer-size d-flex justify-content-center">
@@ -7,13 +5,14 @@ function Footer() {
         <a
           href="https://www.linkedin.com/in/murillojymmy/"
           target="_blank"
-          className="d-flex align-items-center" rel="noreferrer"
+          className="d-flex align-items-center"
+          rel="noreferrer"
         >
           <p className="m-0 d-flex align-items-center own-p-footer">
             Designed by
           </p>
           <img
-            src={logoDisenador}
+            src={`../images/logoDisenador.svg`}
             alt="Logo Diseñador"
             className="own-designer-logo my-auto"
           />

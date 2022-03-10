@@ -1,17 +1,17 @@
-import Compralo from "../images/Compralo.svg";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top own-bg-navBar-footer own-nav-size">
       <div className="container-fluid">
-        <a href="home">
+        <Link to="home">
           <img
-            src={Compralo}
+            src={`../images/Compralo.svg`}
             alt="Logo Compralo"
             className="own-nav-main-logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -29,9 +29,9 @@ function NavBar() {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              <a className="navbar-brand" href="home">
-                <img src={Compralo} alt="Logo Compralo" />
-              </a>
+              <Link to="home" className="navbar-brand">
+                <img src={`../images/Compralo.svg`} alt="Logo Compralo" />
+              </Link>
             </h5>
             <button
               type="button"
@@ -68,9 +68,9 @@ function NavBar() {
             className="offcanvas-header justify-content-center"
             id="offcanvasNavbarLabel"
           >
-            <a className="navbar-brand" href="#">
+            <div className="navbar-brand">
               <Footer />
-            </a>
+            </div>
           </div>
         </div>
       </div>

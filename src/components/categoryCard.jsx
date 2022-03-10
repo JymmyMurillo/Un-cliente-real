@@ -1,6 +1,14 @@
-export default function CategoryCard({cardContent}) {
+import { Link } from "react-router-dom";
+
+export default function CategoryCard({ cardContent, handleCategoryName }) {
+//console.log(handleCategoryName);
   return (
-    <a href="products">
+    <Link to="products"
+      onClick={() => {
+        //console.log("onclick");
+        handleCategoryName(cardContent.name);
+      }}
+    >
       <div className="own-category-card rounded-3 ">
         <img
           className="own-img-card rounded-3"
@@ -13,6 +21,6 @@ export default function CategoryCard({cardContent}) {
           </p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }
