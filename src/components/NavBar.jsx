@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -43,24 +43,44 @@ function NavBar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end align-items-center flex-grow-1">
               <li className="nav-item">
-                <a className="nav-link " href="home">
+                <NavLink
+                  to="/home"
+                  className={`nav-link ${({ isActive }) =>
+                    isActive
+                      ? "active"
+                      : ""}`} /*the active class is added when the path is equal to "/home", can only be done with the <NavLink> tag*/
+                >
                   Inicio
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="categories">
+                <NavLink
+                  className={`nav-link ${({ isActive }) =>
+                    isActive
+                      ? "own-active"
+                      : "active"}`} /*the active class is added when the path is equal to "/categories", can only be done with the <NavLink> tag*/
+                  to="/categories"
+                >
                   Categorias
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="shoppingcart">
+                <NavLink
+                  className={`nav-link ${({ isActive }) =>
+                    isActive ? "own-active" : "active"}`}
+                  /*the active class is added when the path is equal to "/shoppingcart", can only be done with the <NavLink> tag*/ to="/shoppingcart"
+                >
                   Carrito de Compras
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="shoppingsummary">
+                <NavLink
+                  className={`nav-link ${({ isActive }) =>
+                    isActive ? "own-active" : "active"}`}
+                  /*the active class is added when the path is equal to "/shoppingsummary", can only be done with the <NavLink> tag*/ to="/shoppingsummary"
+                >
                   Resumen de Comporas
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

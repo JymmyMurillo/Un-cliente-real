@@ -25,7 +25,7 @@ a {
 
 .own-nav-size {
   width: 100vw;
-  height: var(--navBarHeight);
+  min-height: var(--navBarHeight);
 }
 
 .own-nav-main-logo {
@@ -70,11 +70,16 @@ a {
   color: black !important;
   font-family: var(--first-font);
   font-size: 1.8rem;
+  
 }
 
 .nav-link:hover {
   color: #C31F5C !important;
 }
+
+.active {
+  color: #14ACC1 !important;
+}/*This is an own Class, is an exception to the name own-...*/
 
 .offcanvas-body {
   padding: 0 !important;
@@ -259,6 +264,10 @@ a {
   padding: 0.3rem !important;
 }
 
+.own-modal-cart-button:hover {
+  background-color: #14ACC1 !important;
+}
+
 .own-modal-close-button {
   font-family: var(--second-font);
   font-size: 0.7rem !important;
@@ -268,7 +277,7 @@ a {
   padding: 0.3rem !important;
 }
 
-/* ----------------ShoppingCartPage classes----------------*/
+/* ----------------ShoppingCartPage and  ShoppingSummaryPage classes----------------*/
 .own-cart-card {
   width: 100%;
   height: auto;
@@ -284,7 +293,7 @@ a {
 }
 
 .own-product-cart-name {
-  width: auto;
+  width: 50%;
   height: 100%;
   font-family: var(--first-font);
   font-size: 0.8rem;
@@ -314,7 +323,7 @@ a {
   padding: 0.25em 0.25em;
   border: 0;
   border-radius: 0.25rem;
-  background: #C31F5C url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/%3e%3c/svg%3e) center/1em auto no-repeat;
+  background: #C31F5C url(../public/images/closeIcon.svg) center/1em auto no-repeat;
 }
 
 .own-btn-close:hover {
@@ -338,6 +347,7 @@ transform: scale(1.2);
 
 .own-total-card:hover {
   background-color: #C31F5C;
+  color: white;
 }
 
 .own-p-total-card {

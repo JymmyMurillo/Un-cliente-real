@@ -1,9 +1,18 @@
+import { useCart } from "react-use-cart";
+
 export function ProductCard({ cardContent }) {
+  const { addItem } = useCart();
+
+  console.log("estoy en productCard", cardContent);
   return (
     <>
       {/*Button trigger modal*/}
 
-      <a href="none" data-bs-toggle="modal" data-bs-target={`#${cardContent.id}`}>
+      <a
+        href="none"
+        data-bs-toggle="modal"
+        data-bs-target={`#${cardContent.id}`}
+      >
         <div className="own-product-card  rounded-3 ">
           <img
             className="own-img-card rounded-3"
@@ -49,7 +58,11 @@ export function ProductCard({ cardContent }) {
             </div>
             <div className="modal-footer">
               <p className="own-modal-price">COP ${cardContent.price}</p>
-              <button type="button" className="btn own-modal-cart-button">
+              <button
+                type="button"
+                className="btn own-modal-cart-button"
+                onClick={() => addItem(cardContent)}
+              >
                 Al Carrito
               </button>
               <button
