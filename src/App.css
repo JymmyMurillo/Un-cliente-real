@@ -284,6 +284,7 @@ a {
   min-height: 3.125rem;
   background-color: white;
   position: relative;
+  font-family: var(--first-font);
 }
 
 .own-img-cart-card {
@@ -332,12 +333,33 @@ transform: scale(1.2);
 }
 
 .own-total-card {
-  font-family: var(--first-font);
+  font-family: var(--second-font);
   background-color: #14ACC1;
   margin: 0.5rem;
-  width: 5.75rem;
-  height: 2.25rem;
+  width: 8rem;
+  height: 2.5rem;
   font-size: 0.75rem;
+  color: white;
+}
+
+.own-Vaciar-cart {
+  font-family: var(--second-font);
+  background-color:#F67B21;
+  margin: 0.5rem;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.own-total-card:hover {
+  background-color: #C31F5C;
+  color: white;
+}
+
+
+.own-Vaciar-cart:hover {
+  background-color: #C31F5C;
   color: white;
 }
 
@@ -345,10 +367,6 @@ transform: scale(1.2);
   width: 50% !important;
 }
 
-.own-total-card:hover {
-  background-color: #C31F5C;
-  color: white;
-}
 
 .own-p-total-card {
   font-family: var(--second-font);

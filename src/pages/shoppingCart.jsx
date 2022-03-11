@@ -26,9 +26,14 @@ export default function ShoppingCart({ handleCartItems }) {
         );
       })}
 
+      <p className="m-0 own-cart-card  rounded-3 d-flex flex-row align-items-center justify-content-center">
+        {`Existen "${totalItems}" productos dentro del carrito`}
+      </p>
+
       <div className="own-cart-card  rounded-3 d-flex flex-row align-items-center justify-content-between">
-        <div className="own-half">
-          <a href={`https://wa.me/+573502981239?text=Hola, me interesa comprar los siguientes productos: ${items.map(
+        <div className="own-half d-flex flex-row align-items-center fw-bold">
+          <a
+            href={`https://wa.me/+573502981239?text=Hola, me interesa comprar los siguientes productos: ${items.map(
               (item) => {
                 return (
                   "%0A%0A*- " +
@@ -42,15 +47,20 @@ export default function ShoppingCart({ handleCartItems }) {
             )} %0A%0AValor Total: _*COP $${cartTotal}*_`} /*Send WhatsApp message*/
             target="_blank"
             rel="noreferrer"
-            className="own-total-card d-flex align-items-center justify-content-center rounded-3"
+            className="own-total-card text-center d-flex align-items-center justify-content-center rounded-3"
             onClick={() => {
               console.log("onclick enviar pedido");
               handleCartItems(items, cartTotal);
               emptyCart();
-         
             }}
           >
             Enviar Pedido
+          </a>
+          <a
+            href=" "
+            className="own-Vaciar-cart text-center d-flex align-items-center justify-content-center rounded-3"
+          >
+            Vaciar Carrito
           </a>
         </div>
         <div className="d-flex flex-row justify-content-evenly own-product-text-cart own-half m-auto">
@@ -60,6 +70,7 @@ export default function ShoppingCart({ handleCartItems }) {
           </p>
         </div>
       </div>
+
       <p className="own-p-total-card">
         Cuando envíes el pedido se abrira una ventana de Whatsapp, envia el
         mensaje que aparezca, es la forma en que nos enteraremos de tu pedido.
