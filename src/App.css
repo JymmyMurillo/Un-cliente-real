@@ -6,8 +6,8 @@
     cursive;
   --second-font: 'Overpass Mono',
     monospace;
-  --navBarHeight: 4rem;
-  --footerHeight: 2.4375rem;
+  --navBarHeight: 64px;
+  --footerHeight: 39px;
 }
 
 html {
@@ -19,37 +19,43 @@ a {
 }
 
 /* ----------------NavBar classes----------------*/
+.navbar {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
 .own-bg-navBar-footer {
   background-color: var(--bgColor) !important;
 }
 
 .own-nav-size {
-  width: 100vw;
+  width: 100%;
   min-height: var(--navBarHeight);
 }
 
 .own-nav-main-logo {
   width: auto;
-  height: 3.3125rem;
+  height: 53px;
 }
 
 .navbar-toggler-icon {
-  width: 1.3rem !important;
-  height: 1.325rem !important;
+  width: 20.8px !important;
+  height: 21.2px !important;
 }
 
 .container-fluid {
-  padding-right: 1.4375rem !important;
-  padding-left: 1.4375rem !important;
+  padding-right: 23px !important;
+  padding-left: 23px !important;
 }
 
 .navbar-toggler {
-  padding: 0 0.6rem 0.15rem 0.6rem !important;
-  border-radius: 0.25rem;
+  padding: 0 9.6px 2.4px 9.6px !important;
+  border-radius: 4px;
   transition: none !important;
   color: black !important;
   border-color: none !important;
   border: 1px solid black !important;
+  font-size: 20px !important;
 }
 
 .navbar-toggler:hover {
@@ -58,10 +64,11 @@ a {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+  
 }
 
 .offcanvas-header {
-  padding: 1rem 2rem !important;
+  padding: 16px 32px !important;
 }
 
 .nav-link {
@@ -69,7 +76,8 @@ a {
   font-weight: lighter;
   color: black !important;
   font-family: var(--first-font);
-  font-size: 1.8rem;
+  font-size: 28.8px;
+
   
 }
 
@@ -102,7 +110,7 @@ a {
 
 .own-body-pages {
   top: var(--navBarHeight);
-  width: 100vw;
+  width: auto;
   height: auto;
   min-height: 100vh;
   padding-top: calc(var(--navBarHeight) + 1.5rem);
@@ -117,18 +125,26 @@ a {
   background-color: var(--bgColor);
 }
 
-.own-designer-logo {
-  width: auto;
-  height: 1.9365rem;
+.own-contain-footer {
+position: absolute;
 }
 
-.offcanvas-header {
-  padding: 0 2rem !important;
+.own-contain-footer:hover {
+ transform: scale(3.2);
+ background-color: #FEF4EA;
+ bottom: var(--footerHeight);
+ border-radius: 3px;
+}
+
+.own-designer-logo {
+  width: auto;
+  height: 30.984px;
+  border-radius: 3px;
 }
 
 .own-p-footer {
   font-family: var(--first-font);
-  font-size: 0.8rem;
+  font-size: 12.8px;
   color: black;
 }
 /* ----------------HomePage classes----------------*/
@@ -228,6 +244,13 @@ a {
   height: 11.25rem;
 }
 
+.own-modal-dialog {
+  position: relative;
+  width: auto;
+  
+  padding-top: 20%;
+}
+
 .own-modal-description {
   font-family: var(--second-font);
   font-size: 0.65rem;
@@ -278,6 +301,7 @@ a {
 }
 
 /* ----------------ShoppingCartPage and  ShoppingSummaryPage classes----------------*/
+
 .own-cart-card {
   width: 100%;
   height: auto;
@@ -373,3 +397,11 @@ transform: scale(1.2);
   color: white;
   font-size: 0.7rem;
 }
+
+/* ----------------CSS media queries----------------*/
+@media (min-width: 744px) /*and (max-width: 999px)*/ {
+  html {
+    font-size: calc(16px * 1.8);
+  }
+}
+

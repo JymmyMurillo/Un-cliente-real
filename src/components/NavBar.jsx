@@ -45,7 +45,7 @@ function NavBar() {
               <li className="nav-item">
                 <NavLink
                   to="/home"
-                  className={`nav-link ${({ isActive }) =>
+                  className={`p-0 mx-1 nav-link ${({ isActive }) =>
                     isActive
                       ? "active"
                       : ""}`} /*the active class is added when the path is equal to "/home", can only be done with the <NavLink> tag*/
@@ -55,7 +55,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  className={`nav-link ${({ isActive }) =>
+                  className={`p-0 mx-1 nav-link ${({ isActive }) =>
                     isActive
                       ? "own-active"
                       : "active"}`} /*the active class is added when the path is equal to "/categories", can only be done with the <NavLink> tag*/
@@ -66,7 +66,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  className={`nav-link ${({ isActive }) =>
+                  className={`p-0 mx-1 nav-link ${({ isActive }) =>
                     isActive ? "own-active" : "active"}`}
                   /*the active class is added when the path is equal to "/shoppingcart", can only be done with the <NavLink> tag*/ to="/shoppingcart"
                 >
@@ -75,11 +75,11 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  className={`nav-link ${({ isActive }) =>
+                  className={`p-0 mx-1 nav-link ${({ isActive }) =>
                     isActive ? "own-active" : "active"}`}
                   /*the active class is added when the path is equal to "/shoppingsummary", can only be done with the <NavLink> tag*/ to="/shoppingsummary"
                 >
-                  Resumen de Comporas
+                  Resumen de Compras
                 </NavLink>
               </li>
             </ul>

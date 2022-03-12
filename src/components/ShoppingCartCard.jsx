@@ -12,21 +12,20 @@ export default function ShoppingCartCard({ product, updateItemQuantity, removeIt
           <p className="my-0 mx-1 text-center">COP ${product.price} </p>
         </div>
         <div className="d-flex flex-row align-items-center">
-          <a
-            href=" "
+          <button
             onClick={() => updateItemQuantity(product.id, product.quantity - 1)}
+            className="border-0 bg-transparent"
           >
             <p className="m-0 own-product-cart-title mx-2 fw-bold mt-1"> - </p>
-          </a>
+          </button>
           <div className="own-product-cart-title fw-bold mt-1">
             {product.quantity}
           </div>
-          <a
-            href=" "
+          <button  className="border-0 bg-transparent"        
             onClick={() => updateItemQuantity(product.id, product.quantity + 1)}
           >
             <p className="m-0 own-product-cart-title mx-2 fw-bold mt-1"> + </p>
-          </a>
+          </button>
         </div>
         <div>
           <p className="my-0 mx-2 text-center own-product-cart-name d-flex align-items-center justify-content-evenly">

@@ -11,20 +11,17 @@ export default function ShoppingSummaryCard({ product }) {
           <p className="m-0 text-center">{product.name}</p>
           <p className="my-0 mx-1 text-center">COP ${product.price}</p>
         </div>
-        <div className="d-flex flex-row align-items-center">
+        <div className="own-half d-flex flex-row align-items-center justify-content-evenly">
           <div className="own-product-cart-title fw-bold mt-1">
             {product.quantity}
           </div>
 
-          <p className="m-0 own-product-cart-title fw-bold  mx-2 mt-1">
-            {" "}
-            Und.{" "}
-          </p>
-        </div>
-        <div>
-          <p className="my-0 mx-2 text-center own-product-cart-name d-flex align-items-center justify-content-evenly">
-            ${product.itemTotal}
-          </p>
+          <p className="m-0 own-product-cart-title fw-bold  mx-2 mt-1">Und.</p>
+          <div>
+            <p className="my-0 mx-2 text-center own-product-cart-name d-flex align-items-center justify-content-evenly">
+              ${product.itemTotal}
+            </p>
+          </div>
         </div>
       </div>
     </div>

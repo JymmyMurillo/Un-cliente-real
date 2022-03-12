@@ -5,7 +5,7 @@ function Footer() {
         <a
           href="https://www.linkedin.com/in/murillojymmy/"
           target="_blank"
-          className="d-flex align-items-center"
+          className="d-flex align-items-center own-contain-footer"
           rel="noreferrer"
         >
           <p className="m-0 d-flex align-items-center own-p-footer">
