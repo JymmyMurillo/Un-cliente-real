@@ -40,11 +40,13 @@ export default function ShoppingCart({ handleCartItems }) {
                   item.name +
                   "*%0AUnidades: " +
                   item.quantity +
-                  "%0ACosto: " +
+                  "%0AValor unitario: " +
+                  item.price +
+                  "%0AValor Total: " +
                   item.itemTotal
                 );
               }
-            )} %0A%0AValor Total: _*COP $${cartTotal}*_`} /*Send WhatsApp message*/
+            )} %0A%0AValor Total del Pedido: _*COP $${cartTotal}*_`} /*Send WhatsApp message*/
             target="_blank"
             rel="noreferrer"
             className="own-total-card text-center d-flex align-items-center justify-content-center rounded-3"
