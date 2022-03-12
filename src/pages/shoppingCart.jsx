@@ -2,16 +2,24 @@ import { useCart } from "react-use-cart";
 import ShoppingCartCard from "../components/ShoppingCartCard";
 
 export default function ShoppingCart({ handleCartItems }) {
-  const { isEmpty,totalItems, items, cartTotal, updateItemQuantity, removeItem, emptyCart } =
-    useCart();
+  const {
+    isEmpty,
+    totalItems,
+    items,
+    cartTotal,
+    updateItemQuantity,
+    removeItem,
+    emptyCart,
+  } = useCart();
   console.log("estoy en shoppingCart", items);
 
-  if (isEmpty) return (
-    <h1 className="text-center own-p-total-card fs-1">
-      Tu carrito está vacío, por favor agrega productos de alguna categoría al
-      carrito.
-    </h1>
-  );
+  if (isEmpty)
+    return (
+      <h1 className="text-center own-p-total-card fs-1">
+        Tu carrito está vacío, por favor agrega productos de alguna categoría al
+        carrito.
+      </h1>
+    );
 
   return (
     <div className=" d-flex flex-wrap justify-content-evenly gap-3">
@@ -58,7 +66,10 @@ export default function ShoppingCart({ handleCartItems }) {
           >
             Enviar Pedido
           </a>
-          <button className="border-0 own-Vaciar-cart text-center d-flex align-items-center justify-content-center rounded-3">
+          <button
+            className="border-0 own-Vaciar-cart text-center d-flex align-items-center justify-content-center rounded-3"
+            onClick={() => emptyCart()}
+          >
             Vaciar Carrito
           </button>
         </div>
