@@ -2,20 +2,22 @@
   <img src="./public/images/Compralo.svg" width=80% heigth=auto>
 </p>
 
+https://compralo-tienda-virtual.netlify.app/
+
 # ¡Un cliente real!
 
-Llegó el momento de interactuar con un cliente real para ello buscaremos un  establecimiento de alimentos de nuestro sector y/o el emprendimiento de un amigo o familiar, ofrecemos nuestros servicios de Programadores y donaremos un desarrollo  en React el cual será una interfaz interactiva que reciba los inputs del usuario y se los entregué al dueño del comercio como un pedido digital.
+Llegó el momento de interactuar con un cliente real para ello buscaremos un establecimiento de alimentos de nuestro sector y/o el emprendimiento de un amigo o familiar, ofrecemos nuestros servicios de Programadores y donaremos un desarrollo en React el cual será una interfaz interactiva que reciba los inputs del usuario y se los entregué al dueño del comercio como un pedido digital.
 
 <br>
 <br>
 
 # ¡Aplicación desarrollada para aplicar conocimientos de "React" e interactuar con un cliente real!
 
-
 <br>
 <br>
 
 ## Mockups de este proyecto 🛠️
+
 Son varias vistas las que componen el proyecto, las cuales se encuentran en la carpeta [Mockups](./public/Mockups). A continuación se muestra el Mockup de la vista móvil de la descripcion de productos y carrito de compras en éste proyecto:
 
 <p align="center"> 
@@ -117,6 +119,7 @@ export default App;
 ```
 
 ## Requerimientos técnicos ⚙️
+
 **Contexto del proyecto**
 
 Este será tu primer reto profesional enfocado en un cliente real, tendrás que sacar tus habilidades de comunicación asertiva y tus habilidades de manejo de cliente.
@@ -142,7 +145,7 @@ Recuerda las recomendaciones que te hemos dado hasta este momento para recibir l
 - El desarrollo debe contar con filtros de categorías para los diversos productos
 - El desarrollo debe contar con documentación técnica (debe ser bien documentado para futuros mantenimientos o estabilidad)
 - El desarrollo debe respetar la carta gráfica del cliente o la que ustedes le propongan al cliente (en caso de no tenerla deben diseñar la carta gráfica con logo, paletas de colores)
-​
+  ​
 
 - El desarrollo debe ser RESPONSIVE con uso de la estrategia Mobile First
 - El desarrollo debe contar con las siguientes vistas:
@@ -158,7 +161,6 @@ Recuerda las recomendaciones que te hemos dado hasta este momento para recibir l
 ​
 
 ⚙️**Requerimientos técnicos Productos:**
-
 
 - El desarrollo debe contar con filtros de categorías para los diversos productos
 - Los productos deben tener botones para agregar productos de uno en uno y también para quitarlos del carrito de compra
@@ -176,7 +178,6 @@ Recuerda las recomendaciones que te hemos dado hasta este momento para recibir l
 - El carrito debe mostrar la sumatoria del valor de todos los productos
 - El carrito debe tener un Botón de comprar que nos conduzca a WhatsApp para solicitar el domicilio trayendo toda la informacion del resumen del carrito de compra
 
-
 ⚙️**Adcionales Opcionales:**
 
 - Pueden tener una vista del producto detallado.
@@ -185,8 +186,8 @@ Recuerda las recomendaciones que te hemos dado hasta este momento para recibir l
 - Los productos pueden ser variables y/o con secciones de extras
 - Pueden generar un QR imprimible que dirija al despliegue de la aplicación.
 
-
 ## Entregables
+
 - Product Backlog
 - Descripción del cliente en un documento PDF
 - Mockup
