@@ -30,7 +30,7 @@ Son varias vistas las que componen el proyecto, las cuales se encuentran en la c
 
 A continuación se muestran un fragmento de código, mostarndo parte de la maquetación y el llamado a los diferentes componentes creados en la aplicacion de React:
 
-<p style="font-weight:bold" align="center">JAVASCRIPT</p>
+<p style="font-weight:bolder" align="center">JAVASCRIPT</p>
 
 ```JAVASCRIPT
 import "./App.css";
@@ -200,7 +200,7 @@ Recuerda las recomendaciones que te hemos dado hasta este momento para recibir l
 
 ## Autores ✒️
 
-- **Jymmy Murillo** <a href="https://www.linkedin.com/in/murillojymmy/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Jymmy Murillo" height="30" width="40"/></a>
+- **Jymmy Murillo** <a href="https://www.linkedin.com/in/murillojymmy/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Jymmy Murillo" height="30" width="40"/></a>
 
 <p align="center"> 
   <img src="./public/images/Logo Fondo Blanco.svg" width=80% heigth=auto>
